@@ -1,0 +1,91 @@
+Readme for student report program..
+
+**Structured to object-oriented approach
+
+Instead of separate functions for student data, we created a Student object.
+
+Identifying objects and classes
+
+We identified Student as the main class.
+
+Representation of object and state
+
+Each object stores:
+
+name
+rollNo
+marks
+grade
+Simple class
+
+We built a simple Student class.
+
+Encapsulation
+
+Data and methods are together in one class.
+
+Data hiding
+
+We used private.
+
+Reading and writing objects
+
+readData() and writeData() do that.
+
+Class-level and instance-level members
+instance: name, rollNo, marks, grade
+class-level: studentCount
+Debugging idea
+
+You can step through:
+
+object creation
+input storage
+grade calculation
+display output
+
+**Very short summary of why each major part exists:
+
+Student class
+
+To model the real-world student.
+
+instance variables
+
+To store each student’s own data.
+
+private
+
+To protect data.
+
+static studentCount
+
+To store class-wide common data.
+
+constructor
+
+To increase object count automatically.
+
+readData()
+
+To read object data.
+
+calculateGrade()
+
+To process object data.
+
+writeData()
+
+To display object data.
+
+showStudentCount()
+
+To show total objects created.
+
+main()
+
+To start program execution.
+
+s1, s2
+
+To create real objects from the class.
